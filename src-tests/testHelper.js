@@ -5,5 +5,5 @@ DemoHelper.prototype.test_getANumber = function() {
 };
 
 DemoHelper.prototype.test_getAString = function() {
-    assertTrue("wrong result returned",getAString() === 4);
+    assertTrue("wrong result returned",getAString() === 'Hello, World.');
 };
